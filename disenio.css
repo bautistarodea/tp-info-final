@@ -1,0 +1,179 @@
+body{
+    background-color:#225517;
+}
+.Header{
+    background-color:#225517;
+    gap:3em 0px;
+    border:3em solid #225517;
+    display:grid;
+    grid-template-areas:
+    ". Logo .";
+    grid-template-columns:33.33% 33.34% 33.33%;
+    grid-template-rows:2cm;
+}
+.logo{
+    grid-column:2/3;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:25%;
+}
+
+.container{display:grid;
+    grid-template-columns:15% 70% 15%;
+    grid-template-rows:0.4fr 2.3fr 0.3fr;
+    grid-auto-rows:1fr;
+    gap:6px 0px;
+    grid-auto-flow:row;
+    grid-template-areas:
+      "Head Head Head"
+      "Menu Body ."
+      "Menu Pie .";
+}
+  
+.Head{
+    grid-row:1/2;
+    grid-column:2/3;
+    border:6px solid rgb(3, 17, 5);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    background-color:rgb(4, 41, 5);
+    margin-top:3em;
+    margin-bottom:2em;
+}
+.Menu{
+    display:grid;
+    grid-template-rows:4em 4em 4em;
+    display: ruby-text;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 1,5cm;
+}
+.hypertexto{
+    grid-row:2/4;
+    grid-column:1/4;
+    text-align:center;
+}
+.hypertexto2{
+    grid-row:2/4;
+    grid-column:1/4;
+    text-align:center;
+}
+.hypertexto3{
+    grid-row:2/4;
+    grid-column:1/4;
+    text-align:center;
+}
+.Body{
+    display:grid;
+    grid-area:Body;
+    border:6px solid rgb(3, 17, 5);
+    background-color:rgb(4, 41, 5);
+    grid-template-areas:
+    ". descr ."
+    "i2 . i2"
+    ". MonstersTradicionales ."
+    "m1 m2 m3"
+    ". MonstersSaborizadas ."
+    "m4 m5 m6"
+    ". MonstersCafeina ."
+    "m7 m8 m9";
+}
+.descr{
+    grid-row:1/2;
+    grid-column:1/4;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+}
+.i2{
+    grid-row:2/3;
+    grid-column:1/2;
+    margin-top:2em;
+    margin-bottom:2em;
+    margin-left:2cm;
+}
+.i3{
+    grid-row:2/3;
+    grid-column:3/4;
+    margin-top:2em;
+    margin-bottom:2em;
+    margin-left:1cm;
+}
+.MonstersTradicionales{
+    grid-row:3/4;
+    grid-column:2/3;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.m1{
+    grid-row:4/5;
+    grid-column:1/2;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.m2{
+    grid-row:4/5;
+    grid-column:2/3;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.m3{
+    grid-row:4/5;
+    grid-column:3/4;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.MonstersSaborizadas{
+    grid-row:5/6;
+    grid-column:2/3;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.m4{
+    grid-row:6/7;
+    grid-column:1/2;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.m5{
+    grid-row:6/7;
+    grid-column:2/3;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.m6{
+    grid-row:6/7;
+    grid-column:3/4;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.MonstersCafeina{
+    grid-row:7/8;
+    grid-column:2/3;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.m7{
+    grid-row:8/9;
+    grid-column:1/2;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.m8{
+    grid-row:8/9;
+    grid-column:2/3;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.m9{
+    grid-row:8/9;
+    grid-column:3/4;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.i1{
+    margin-left:25%;
+}
+.boton1{
+    border:none;
+    color:rgb(184, 26, 26);
+    padding:15px 32px;
+    display:block;
+    text-decoration:white;
+    display:inline-block;
+    font-size:16px;
+    margin:4px 2px;
+    cursor:pointer;
+}
+.Pie{
+    grid-area:Pie;
+    border:6px solid rgb(3, 17, 5);
+    background-color:rgb(4, 41, 5);
+}
