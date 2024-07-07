@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "nombre": "monster energy clasica",
+    "categoria": "tradicionales",
+    "precio": 2000,
+    "imagen": "./Daco_4599425.png"
+  },
+  {
+    "id": 2,
+    "nombre": "monster energy zero",
+    "categoria": "tradicionales",
+    "precio": 2000,
+    "imagen": "https://th.bing.com/th/id/R.08e2914e19a23c9ea96741d3b0108e9c?rik=loAK1CnDKY8cGQ&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 3,
+    "nombre": "monster energy grande",
+    "categoria": "tradicionales",
+    "precio": 5500,
+    "imagen": "https://i5.walmartimages.com/seo/Mega-Monster-Energy-Original-Energy-Drink-Single-24-fl-oz_4e9569a4-898d-4a54-bdf1-51a807448cbb.ff46ba4e467c66340224352d277e90a6.png"
+  },
+  {
+    "id": 4,
+    "nombre": "monster energy ultra",
+    "categoria": "saborizadas",
+    "precio": 2000,
+    "imagen": "https://th.bing.com/th/id/R.fb400032beb984f1f5fd534252344c1d?rik=oFMWaK2NQw67ag&riu=http%3a%2f%2fshop.tropicalbottlingcompany.com%2fcdn%2fshop%2fproducts%2fMonster.png%3fv%3d1618962584&ehk=GhJTx%2fdWINPTAcK6PM23xFjvsIs3qvu5VboTOA0U5MU%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 5,
+    "nombre": "monster energy mango loco",
+    "categoria": "saborizadas",
+    "precio": 2000,
+    "imagen": "https://i5.walmartimages.com/seo/Juice-Monster-Mango-Loco-Energy-Juice-16-fl-oz_e24d51d2-dd84-4a17-88e5-d7c2cf29f2ad.ff3c633ffaf6c4b8c98c8ef2a3037caf.png"
+  },
+  {
+    "id": 6,
+    "nombre": "monster energy THE DOCTOR",
+    "categoria": "saborizadas",
+    "precio": 2000,
+    "imagen": "https://web-assests.monsterenergy.com/mnst/7f286ea7-4d78-42c4-908e-408e1dcfa406.webp"
+  },
+  {
+    "id": 7,
+    "nombre": "monster energy moca loca",
+    "categoria": "java",
+    "precio": 3500,
+    "imagen": "https://www.totalwine.com/dynamic/x490,sq/media/sys_master/twmmedia/hb5/h3a/10987775164446.png"
+  },
+  {
+    "id": 8,
+    "nombre": "monster energy salted caramel",
+    "categoria": "java",
+    "precio": 3500,
+    "imagen": "https://www.drinkenergy.ch/wp-content/uploads/2020/09/monster_energy_drink_java_salted_caramel_coffee_energy_444ml_dose-300x300.png"
+  },
+  {
+    "id": 9,
+    "nombre": "monster energy mean bean",
+    "categoria": "java",
+    "precio": 3500,
+    "imagen": "https://th.bing.com/th/id/R.79a28607880b3470450311aa0c112829?rik=rYdCMwOgoUbULQ&pid=ImgRaw&r=0"
+  }
+]
